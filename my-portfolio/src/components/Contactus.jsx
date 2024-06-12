@@ -12,7 +12,7 @@ const ContactUS = () => {
             </h1>
           </div>
 
-          <div className="flex flex-col items-center justify-center md:flex-row justify-center">
+          <div className="pt-7 flex flex-col items-center justify-center md:flex-row justify-between md:px-7">
             <a
               href="mailto:zaidvirk49@gmail.com"
               className=" transition-colors duration-500 ease-in-out hover:bg-[#5ea5b6] w-min p-5 rounded-md lg:w-[216px] lg:h-[165px]"
@@ -46,6 +46,7 @@ const ContactUS = () => {
             <a
               href="https://pk.linkedin.com/in/zaid-asghar-virk-0b311b22b"
               target="_blank"
+              rel="noopener noreferrer"
               className="transition-colors duration-500 ease-in-out hover:bg-[#5ea5b6] w-max p-5 rounded-md lg:w-[216px] lg:h-[165px]"
             >
               <div className="flex flex-col items-center justify-center text-center">

@@ -31,10 +31,10 @@ function HomePage() {
       <div className=" w-[100%] overflow-hidden">
         {isScreenSmall ? <AnimatedAttrSC /> : <AnimatedAttr />}
       </div>
-      <div>
+      <div id="portfolio">
         <PortFolio></PortFolio>
       </div>
-      <div>
+      <div id="contact" className="pt-7">
         <ContactUS></ContactUS>
       </div>
     </>
