@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zaid-portfolio/static/css/main.bc41517b.css",
+    "main.js": "/zaid-portfolio/static/js/main.d8284e52.js",
+    "static/js/453.acca0757.chunk.js": "/zaid-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/image.png": "/zaid-portfolio/static/media/image.aa0c49b501703d25b0bb.png",
+    "static/media/v-logo.png": "/zaid-portfolio/static/media/v-logo.8d77b1eec132fb52ffc0.png",
+    "static/media/sage-l.png": "/zaid-portfolio/static/media/sage-l.ba07c13e354868e0c4c6.png",
+    "static/media/Kodati.png": "/zaid-portfolio/static/media/Kodati.4832b61b915c0c3e1579.png",
+    "static/media/equal.png": "/zaid-portfolio/static/media/equal.0ab543d2088198fc2f33.png",
+    "static/media/adapt.png": "/zaid-portfolio/static/media/adapt.ad131eb2227e2a9a52e2.png",
+    "static/media/solution.png": "/zaid-portfolio/static/media/solution.ed9d27009fd3c08f8787.png",
+    "static/media/valley.jpg": "/zaid-portfolio/static/media/valley.9c49576a34fad60c539d.jpg",
+    "index.html": "/zaid-portfolio/index.html",
+    "main.bc41517b.css.map": "/zaid-portfolio/static/css/main.bc41517b.css.map",
+    "main.d8284e52.js.map": "/zaid-portfolio/static/js/main.d8284e52.js.map",
+    "453.acca0757.chunk.js.map": "/zaid-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc41517b.css",
+    "static/js/main.d8284e52.js"
+  ]
+}
