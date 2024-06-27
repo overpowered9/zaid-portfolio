@@ -8,6 +8,7 @@ const ContactUS = () => {
               href={
                 "https://drive.google.com/file/d/1HcyscnV3MxF9KyarpFvRg4qr1cUCo2Sp/view"
               }
+              target="_blank"
               className="text-white   transition rounded-xl p-4 font-mono text-xl ease-in-out bg-gray-700 hover:text-cyan-700 hover:scale-105"
             >
               GET CV
