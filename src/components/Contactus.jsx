@@ -5,8 +5,9 @@ const ContactUS = () => {
         <div className="container px-6 py-12 mx-auto">
           <div className="text-center">
             <a
-              href={"/zaid-resume.pdf"}
-              download="zaid-resume.pdf"
+              href={
+                "https://drive.google.com/file/d/1HcyscnV3MxF9KyarpFvRg4qr1cUCo2Sp/view"
+              }
               className="text-white   transition rounded-xl p-4 font-mono text-xl ease-in-out bg-gray-700 hover:text-cyan-700 hover:scale-105"
             >
               GET CV
