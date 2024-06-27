@@ -4,10 +4,14 @@ const ContactUS = () => {
       <section className="bg-white dark:bg-gray-900 font-mono overflow-hidden">
         <div className="container px-6 py-12 mx-auto">
           <div className="text-center">
-            <p className="font-medium text-blue-500 dark:text-blue-400">
-              Contact us
-            </p>
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+            <a
+              href={"/zaid-resume.pdf"}
+              download="zaid-resume.pdf"
+              className="text-white   transition rounded-xl p-4 font-mono text-xl ease-in-out bg-gray-700 hover:text-cyan-700 hover:scale-105"
+            >
+              GET CV
+            </a>
+            <h1 className="mt-8 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
               Get in touch
             </h1>
           </div>

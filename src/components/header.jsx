@@ -7,6 +7,7 @@ function Header() {
         {/* <div className="bg-black rounded-lg">
           <p className="text-yellow-50 w-">GET CV</p>
         </div> */}
+
         <nav className="flex flex-row justify-between gap-5 md:flex">
           <a
             href="#portfolio"
