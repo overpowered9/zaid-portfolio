@@ -7,7 +7,7 @@ import ContactUS from "../components/Contactus";
 import { useState } from "react";
 import { useEffect } from "react";
 import PortFolio from "../components/portfolio";
-import Technologies from "../components/Technologies";
+import Technologies2 from "../components/Technologies copy";
 function HomePage() {
   const [isScreenSmall, setIsScreenSmall] = useState(window.innerWidth < 1000);
   useEffect(() => {
@@ -36,7 +36,7 @@ function HomePage() {
         <PortFolio></PortFolio>
       </div>
       <div id="Technologies">
-        <Technologies></Technologies>
+        <Technologies2></Technologies2>
       </div>
       <div id="contact" className="pt-7">
         <ContactUS></ContactUS>
