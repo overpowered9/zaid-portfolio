@@ -31,9 +31,7 @@ function Technologies2() {
             <h2 className="font-semibold text-3xl">Technologies & Tools</h2>
 
             <p className="max-w-md mx-auto mt-2 text-gray-500">
-              As a Developer & Solution maker for buisnesses one should be
-              grateful for Tools & Technologies that let you provide value to
-              clients.
+              Experienced With the following set of tools and technologies.
             </p>
           </div>
 

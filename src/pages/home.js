@@ -8,6 +8,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import PortFolio from "../components/portfolio";
 import Technologies2 from "../components/Technologies copy";
+import AnimatedImage2 from "../components/animated_/animatedimage2";
 function HomePage() {
   const [isScreenSmall, setIsScreenSmall] = useState(window.innerWidth < 1000);
   useEffect(() => {
@@ -22,11 +23,11 @@ function HomePage() {
   console.log("server is on");
   return (
     <>
-      <div className=" bg-[#245167]">
+      <div className=" bg-white ">
         <Header></Header>
-        <div className="ml-0 h-[88vh] flex flex-col justify-between sm:flex-row sm:h-auto overflow-hidden md:ml-[180px]">
+        <div className="bottom-0 animate__animated animate__fadeInUp animate__slow ml-0 h-[88vh] flex flex-col justify-evenly items-center sm:flex-row sm:gap-0  sm:overflow-hidden sm:items-start  md:mt-[50px]">
           <Intro></Intro>
-          <AnimatedImage></AnimatedImage>
+          <AnimatedImage2></AnimatedImage2>
         </div>
       </div>
       <div className=" w-[100%] overflow-hidden">

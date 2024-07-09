@@ -4,7 +4,6 @@ import { Typewriter } from "react-simple-typewriter";
 const Intro = () => {
   return (
     <div className=" w-[100vw]  p-[5vw] sm:mt-12 sm:w-[60vw] overflow-hidden">
-      <p className="font-mono text-2xl sm:text-xl font-extrabold">Hi, I am</p>
       <div className=" text-2xl text-[#5ea5b6] font-bold font-mono sm:text-3xl">
         <Typewriter
           cursor
@@ -16,7 +15,7 @@ const Intro = () => {
         <br />
 
         <Typewriter
-          typeSpeed={200}
+          typeSpeed={100}
           deleteSpeed={50}
           delaySpeed={1000}
           cursor

@@ -1,0 +1,4 @@
+.shape {
+  animation: morph 8s ease-in-out infinite;
+  width: 350px;
+}

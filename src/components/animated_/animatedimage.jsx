@@ -5,7 +5,7 @@ const AnimatedImage = () => {
   return (
     <div
       className="flex flex-shrink-0 aspect-auto left-0 
-        sm:left-[10vw] sm:flex-none relative sm:w-[50%]  overflow-hidden  transform transition duration-500 ease-in-out hover:scale-105"
+         sm:flex-none relative overflow-hidden  transform transition duration-500 ease-in-out hover:scale-105 md:contents"
     >
       <img
         alt="pic"
