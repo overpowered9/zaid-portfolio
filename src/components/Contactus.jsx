@@ -6,7 +6,7 @@ const ContactUS = () => {
           <div className="text-center">
             <a
               href={
-                "https://drive.google.com/file/d/1HcyscnV3MxF9KyarpFvRg4qr1cUCo2Sp/view"
+                "https://drive.google.com/file/d/1AD6sqt6d1NSw76SaE6-zjyLO5Dh4pWYS/view?usp=drive_link"
               }
               target="_blank"
               rel="noreferrer"
