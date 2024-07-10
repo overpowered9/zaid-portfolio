@@ -1,6 +1,5 @@
 import Header from "../components/header";
 import Intro from "../components/intro/intro";
-import AnimatedImage from "../components/animated_/animatedimage";
 import AnimatedAttr from "../components/animated_/animated_attributes";
 import AnimatedAttrSC from "../components/animated_/animated_Scroll";
 import ContactUS from "../components/Contactus";
