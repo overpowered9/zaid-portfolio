@@ -1,7 +1,8 @@
 import kodatiimage from "../assets/Kodati.png";
 import valleyimage from "../assets/valley.jpg";
 import sageimage from "../assets/sage-l.png";
-import vlogo from "../assets/v-logo.png";
+import car from "../assets/carrent.png";
+import vlogo from "../assets/v-logo.png"; 
 
 const PortFolio = () => {
   return (
@@ -99,9 +100,61 @@ const PortFolio = () => {
                   <h2 className="mt-4 text-xl font-semibold text-white capitalize">
                     Shoe Store, Complete E-Commerece Functionality
                   </h2>
-                  <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase"></p>
+                  <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase">
+                  <a
+                      href="https://github.com/overpowered9/Sage_Ecomm"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Github
+                    </a>
+                  </p>
                 </div>
               </div>
+              
+              <div
+                className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                style={{
+                  backgroundImage: `url(${car})`,
+                }}
+              >
+                <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                  <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                    Car Rental Landing Page
+                  </h2>
+                  <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase">
+                  <a
+                      href="https://hybridcarparts.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Go to Website
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                style={{
+                  backgroundImage: `url(${car})`,
+                }}
+              >
+                <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                  <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                    Car Rental Landing Page
+                  </h2>
+                  <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase">
+                  <a
+                      href="https://hybridcarparts.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Go to Website
+                    </a>
+                  </p>
+                </div>
+              </div>
+              
             </div>
           </div>
         </section>
