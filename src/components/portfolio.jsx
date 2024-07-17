@@ -3,6 +3,7 @@ import valleyimage from "../assets/valley.jpg";
 import sageimage from "../assets/sage-l.png";
 import car from "../assets/carrent.png";
 import vlogo from "../assets/v-logo.png"; 
+import calorie from "../assets/calorie.png"; 
 
 const PortFolio = () => {
   return (
@@ -136,20 +137,20 @@ const PortFolio = () => {
               <div
                 className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
                 style={{
-                  backgroundImage: `url(${car})`,
+                  backgroundImage: `url(${calorie})`,
                 }}
               >
                 <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
                   <h2 className="mt-4 text-xl font-semibold text-white capitalize">
-                    Car Rental Landing Page
+                    Calorie Fitness Application
                   </h2>
                   <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase">
                   <a
-                      href="https://hybridcarparts.vercel.app/"
+                      href="https://github.com/overpowered9/CalorieQuest-main"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Go to Website
+                      Github
                     </a>
                   </p>
                 </div>
