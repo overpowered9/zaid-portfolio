@@ -22,9 +22,8 @@ const PortfolioCarousel = () => {
     },
     {
       id: 2,
-      title: "Shopify Email Automation Application",
-      description:
-        "AI-powered email automation solution for Shopify stores, featuring smart content generation and customer engagement tools.",
+      title: "Touseeq For Store Management",
+      description: "AI-powered Store Managament Application Made with Next.js",
       image: touseeq,
       website: null,
       github: null,
