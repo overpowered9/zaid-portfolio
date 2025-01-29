@@ -108,7 +108,7 @@ const ContactUS = () => {
                   Phone
                 </h2>
                 <p className="mt-2 text-blue-500 dark:text-blue-400">
-                  +923400805722
+                  +923151051459
                 </p>
               </div>
             </a>

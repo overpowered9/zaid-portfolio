@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import PortFolio from "../components/portfolio";
 import Technologies2 from "../components/Technologies copy";
 import AnimatedImage2 from "../components/animated_/animatedimage2";
+import PortfolioCarousel from "../components/portfolio copy 2";
 function HomePage() {
   const [isScreenSmall, setIsScreenSmall] = useState(window.innerWidth < 1000);
   useEffect(() => {
@@ -29,14 +30,16 @@ function HomePage() {
           <AnimatedImage2></AnimatedImage2>
         </div>
       </div>
-      <div className=" w-[100%] overflow-hidden">
-        {isScreenSmall ? <AnimatedAttrSC /> : <AnimatedAttr />}
-      </div>
+
       <div id="portfolio">
-        <PortFolio></PortFolio>
+        <PortfolioCarousel />
       </div>
+
       <div id="Technologies">
         <Technologies2></Technologies2>
+      </div>
+      <div className=" w-[100%] overflow-hidden">
+        {isScreenSmall ? <AnimatedAttrSC /> : <AnimatedAttr />}
       </div>
       <div id="contact" className="pt-7">
         <ContactUS></ContactUS>
