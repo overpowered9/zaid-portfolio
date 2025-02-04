@@ -55,17 +55,9 @@ const PortfolioCarousel = () => {
       website: null,
       github: "https://github.com/overpowered9/Sage_Ecomm",
     },
+
     {
       id: 6,
-      title: "Car Rental Landing Page",
-      description:
-        "Modern and responsive landing page for a car rental service with booking functionality and vehicle showcase.",
-      image: car,
-      website: "https://hybridcarparts.vercel.app/",
-      github: null,
-    },
-    {
-      id: 7,
       title: "Calorie Fitness Application",
       description:
         "Comprehensive fitness tracking application for monitoring calorie intake and exercise routines.",
