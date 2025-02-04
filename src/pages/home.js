@@ -1,8 +1,7 @@
 import Header from "../components/header";
 import Intro from "../components/intro/intro";
 import StatView from "../components/stats";
-import AnimatedAttr from "../components/animated_/animated_attributes";
-import AnimatedAttrSC from "../components/animated_/animated_Scroll";
+
 import ContactUS from "../components/Contactus";
 import { useState } from "react";
 import { useEffect } from "react";
