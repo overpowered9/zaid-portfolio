@@ -32,8 +32,7 @@ function HomePage() {
       <HeroSection />
 
       <div id="portfolio">
-        
-        <PortfolioSteps/>
+        <PortfolioSteps />
       </div>
 
       <div id="Technologies">
@@ -41,7 +40,7 @@ function HomePage() {
       </div>
       <div className="flex flex-col align-middle justify-center w-[100%] pl-[10%] pr-[10%] sm:flex-row ">
         {/* {isScreenSmall ? <AnimatedAttrSC /> : <AnimatedAttr />} */}
-        <StatView />
+        {/* <StatView /> */}
       </div>
       {/* <InteractiveCV /> */}
 
