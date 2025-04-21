@@ -11,6 +11,9 @@ import AnimatedImage2 from "../components/animated_/animatedimage2";
 import PortfolioCarousel from "../components/portfolio copy 2";
 import AnimatedTechnologies from "../components/Technologies";
 import InteractiveCV from "../components/CV";
+import HeroSection from "../components/HeroSection";
+import PortfolioSteps from "../components/portfolionew";
+
 function HomePage() {
   const [isScreenSmall, setIsScreenSmall] = useState(window.innerWidth < 1000);
   useEffect(() => {
@@ -25,16 +28,11 @@ function HomePage() {
   console.log("server is on");
   return (
     <>
-      <div className=" bg-white ">
-        <Header></Header>
-        <div className="bottom-0 animate__animated animate__fadeInUp animate__slow ml-0 h-[88vh] flex flex-col justify-evenly items-center sm:flex-row sm:gap-0  sm:overflow-hidden sm:items-start  md:mt-[50px]">
-          <Intro></Intro>
-          <AnimatedImage2></AnimatedImage2>
-        </div>
-      </div>
+      <HeroSection />
 
       <div id="portfolio">
-        <PortfolioCarousel />
+        
+        <PortfolioSteps/>
       </div>
 
       <div id="Technologies">
